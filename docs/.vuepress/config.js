@@ -2,7 +2,7 @@
 
 
 module.exports = {
-    title: '小闫要瘦的博客',
+    title: '小闫要瘦自留地',
     description: 'XXX',
     // base: '/blob/',
     theme: 'reco',
@@ -15,7 +15,7 @@ module.exports = {
       nav: [
         { text: "首页", link: "https://yanbixing8818.github.io/" },
         {
-          text: "小闫要瘦的博客",
+          text: "友商链接",
           items: [
             { text: "CSDN主页", link: "https://blog.csdn.net/yanbixing123" },
             { text: "Android MultiMedia框架完全解析", link: "https://blog.csdn.net/yanbixing123/category_9287346.html?spm=1001.2014.3001.5482" },
@@ -66,7 +66,7 @@ module.exports = {
             }
           ] ,
           // 是否默认缩小
-          autoShrink: true ,
+          autoShrink: false ,
           // 缩小时缩为哪种模式
           shrinkMode: 'float',
           // 悬浮窗样式
@@ -76,7 +76,7 @@ module.exports = {
       [ //看板娘插件
         '@vuepress-reco/vuepress-plugin-kan-ban-niang',
         {
-          theme: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16']
+          theme: [ 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16', 'blackCat', 'whiteCat', 'haru1', 'haru2',]
         }
       ]
     ]
