@@ -1,3 +1,6 @@
+// import plugins from "./config/plugins"  
+
+
 module.exports = {
     title: '小闫要瘦的博客',
     description: 'XXX',
@@ -39,6 +42,36 @@ module.exports = {
           ]
         } 
       ],
-      subSidebar: 'auto'
-    }
+      subSidebar: 'auto',
+    },
+    plugins: [
+      ['vuepress-plugin-code-copy', true],  //复制代码块的插件
+      'reading-progress', //显示阅读进度条
+      [ //光标效果的插件
+        'cursor-effects', {
+          size: 2, // size of the particle, default: 2
+          shape: 'star', // ['star' | 'circle'], // shape of the particle, default: 'star'
+          zIndex: 999999999, // z-index property of the canvas, default: 999999999
+        }
+      ],
+      [ //背景音乐插件
+        '@vuepress-reco/vuepress-plugin-bgm-player',
+        {
+          audios: [
+            {
+              name: 'LOSER',
+              artist: '米津玄師',
+              url: 'https://www.ytmp3.cn/down/73654.mp3',
+              cover: 'https://p1.music.126.net/qTSIZ27qiFvRoKj-P30BiA==/109951165895951287.jpg?param=200y200'
+            }
+          ] ,
+          // 是否默认缩小
+          autoShrink: true ,
+          // 缩小时缩为哪种模式
+          shrinkMode: 'float',
+          // 悬浮窗样式
+          floatStyle:{ bottom: '10px', 'z-index': '999999' }
+        }
+      ],
+    ]
   }
