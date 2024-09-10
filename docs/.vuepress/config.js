@@ -1,7 +1,7 @@
 module.exports = {
     title: '小闫要瘦的博客',
     description: 'XXX',
-    base: '/blob/',
+    // base: '/blob/',
     theme: 'reco',
     themeConfig: {
       nav: [
