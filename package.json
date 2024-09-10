@@ -15,6 +15,7 @@
   "description": "",
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "github:vuepress-reco/vuepress-plugin-kan-ban-niang",
     "vuepress": "^1.9.10",
     "vuepress-plugin-cursor-effects": "^1.1.6",
     "vuepress-plugin-nuggets-style-copy": "^1.0.3",

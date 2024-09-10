@@ -73,5 +73,11 @@ module.exports = {
           floatStyle:{ bottom: '10px', 'z-index': '999999' }
         }
       ],
+      [ //看板娘插件
+        '@vuepress-reco/vuepress-plugin-kan-ban-niang',
+        {
+          theme: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16']
+        }
+      ]
     ]
   }
