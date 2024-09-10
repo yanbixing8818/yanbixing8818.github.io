@@ -3,9 +3,14 @@ module.exports = {
     description: 'XXX',
     // base: '/blob/',
     theme: 'reco',
+    locales: {
+      '/': {
+        lang: 'zh-CN'
+      }
+    },
     themeConfig: {
       nav: [
-        { text: "首页", link: "/" },
+        { text: "首页", link: "https://yanbixing8818.github.io/" },
         {
           text: "小闫要瘦的博客",
           items: [
@@ -33,6 +38,7 @@ module.exports = {
             { title: "第二篇", path: "/handbook/2" },
           ]
         } 
-      ]
+      ],
+      subSidebar: 'auto'
     }
   }
