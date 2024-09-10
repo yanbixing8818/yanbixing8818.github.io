@@ -9,7 +9,10 @@ module.exports = {
         {
           text: "小闫要瘦的博客",
           items: [
-            { text: "CSDC主页", link: "https://blog.csdn.net/yanbixing123" },
+            { text: "CSDN主页", link: "https://blog.csdn.net/yanbixing123" },
+            { text: "Android MultiMedia框架完全解析", link: "https://blog.csdn.net/yanbixing123/category_9287346.html?spm=1001.2014.3001.5482" },
+            { text: "GStreamer专栏", link: "https://blog.csdn.net/yanbixing123/category_9267111.html?spm=1001.2014.3001.5482" },
+            { text: "i.MX6-IPU子系统", link: "https://blog.csdn.net/yanbixing123/category_9266606.html?spm=1001.2014.3001.5482" },
             { text: "Github", link: "https://github.com/yanbixing8818/blob" }
           ]
         }
