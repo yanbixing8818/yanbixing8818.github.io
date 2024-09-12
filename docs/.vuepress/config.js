@@ -3,7 +3,10 @@
 
 module.exports = {
     title: '小闫要瘦自留地',
-    description: 'XXX',
+    description: 'Just be yourself. Why do you care what other people think.',
+    head: [
+      ['link', { rel: 'icon', href: '/img/logo.png' }],
+    ],
     // base: '/blob/',
     theme: 'reco',
     locales: {
@@ -12,8 +15,10 @@ module.exports = {
       }
     },
     themeConfig: {
+      logo:'/img/logo.png',
       nav: [
         { text: "首页", link: "https://yanbixing8818.github.io/" },
+        { text: "关于我", link: "https://yanbixing8818.github.io/" },
         {
           text: "友商链接",
           items: [
